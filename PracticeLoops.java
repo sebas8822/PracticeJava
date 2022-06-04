@@ -8,7 +8,9 @@ Hint: You need to use the if‐else if‐ else statement.
 *
 *
 * */
+
 import java.util.Scanner;// allows use scanner to input from keyboard
+
 public class PracticeLoops {
 
     /*Main Method*/
@@ -19,15 +21,15 @@ public class PracticeLoops {
         System.out.print("Enter the mark in percentage 0-100% ");
         int mark = input.nextInt();
         if (mark >= 85)
-            System.out.println("High Distinction" );
-        else if (mark >= 75 && mark <= 84 )
-            System.out.println("Distinction" );
-        else if (mark >= 65 && mark <= 74 )
-            System.out.println("Credit" );
-        else if (mark >= 50 && mark <= 65 )
-            System.out.println("Pass" );
+            System.out.println("High Distinction");
+        else if (mark >= 75 && mark <= 84)
+            System.out.println("Distinction");
+        else if (mark >= 65 && mark <= 74)
+            System.out.println("Credit");
+        else if (mark >= 50 && mark <= 65)
+            System.out.println("Pass");
         else
-            System.out.println("Fail" );
+            System.out.println("Fail");
 
 
     }

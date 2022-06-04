@@ -38,8 +38,6 @@ public class TestWordlist {
         System.out.println(list3.findWord("canson"));
 
 
-
-
     }
 
 

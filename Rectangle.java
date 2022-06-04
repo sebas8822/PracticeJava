@@ -29,12 +29,13 @@ public class Rectangle {
     }
 
     public double areaRect() {
-        double area = width*height;
+        double area = width * height;
 
         return area;
     }
+
     public double perRect() {
-        double perimeter = 2*(width+height);
+        double perimeter = 2 * (width + height);
 
         return perimeter;
     }
