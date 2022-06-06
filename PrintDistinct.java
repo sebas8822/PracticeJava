@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ExamQ2 {
+public class PrintDistinct {
     public static void main(String[] args) {
         boolean flag = false;
 
@@ -9,25 +9,25 @@ public class ExamQ2 {
         ArrayList<Integer> array = new ArrayList<>();
         ArrayList<Integer> array2 = new ArrayList<>();
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 20; i++) {
             array.add((int) (Math.random() * 10));
 
 
         }
-        System.out.print("array 1: " + array );
+        System.out.println("array 1: " + array );
 
 
         for (int element : array) {
             array2.add(element);
         }
-        System.out.print("array 2: " + array2 );
+        System.out.println("array 2: " + array2 );
         for (int element : array) {
             while(check(array2,element)){
                 array2.remove(array2.indexOf(element));
                 //System.out.println("array 2: " + array2 );
             }
         }
-        System.out.print("array 2: " + array2 );
+        System.out.println("array 2: " + array2 );
 
 
     }
@@ -41,7 +41,7 @@ public class ExamQ2 {
             }
         }
         if (count > 1) {
-            System.out.println(count);
+            //System.out.println(count);
             return true;
         }
 
